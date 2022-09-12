@@ -1,0 +1,75 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "f_MAIN",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "./User_files/f_Test_Circuit_1.net",
+                "./User_files/f_MAIN.csv"
+            ]
+        },
+        {
+            "name": "f_Test_Circuit_1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/sophie.py",
+            "console": "integratedTerminal",
+            "args": [
+                "./User_files/f_Test_Circuit_1.net",
+                "./User_files/f_Test_Circuit_1.csv"
+            ]
+        },
+        {
+            "name": "d_LPF_B50",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/sophie.py",
+            "console": "integratedTerminal",
+            "args": [
+                "./User_files/d_LPF_B50.net",
+                "./User_files/d_LPF_B50.csv"
+            ]
+        },
+        {
+            "name": "a_Test_Circuit_1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/sophie.py",
+            "console": "integratedTerminal",
+            "args": [
+                "./User_files/a_Test_Circuit_1.net",
+                "./User_files/a_Test_Circuit_1.csv"
+            ]
+        },
+        {
+            "name": "d_LPF_B750",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/sophie.py",
+            "console": "integratedTerminal",
+            "args": [
+                "./User_files/d_LPF_B750.net",
+                "./User_files/d_LPF_B750.csv"
+            ]
+        },
+        {
+            "name": "AutoTest",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/AutoTest.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/sophie.py",
+                "1.0e-14",
+                "1.0e-14"
+            ]
+        }
+    ]
+}
