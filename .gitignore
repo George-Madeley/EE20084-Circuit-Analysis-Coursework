@@ -128,6 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-Coursework_definition_2020_21_v0_pngfigs.pdf
+*.pdf
 *.docx
 **/User_files
