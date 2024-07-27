@@ -79,4 +79,4 @@ def find_int(string_to_search,name,noisy):
             print("Failed to find <%s> in <%s>"%(name, str))
         ok = False
     return(rtn, ok)
-#
+# Code that uses the functions defined in the file

@@ -7,7 +7,7 @@ import sys
 import os
 import re
 import filecmp
-import EE20084_functions_01 as EE84
+import Operations as EE84
 import numpy as np
 
 def test_char_by_char(logfile,nline,l1,l2):
